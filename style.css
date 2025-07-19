@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Romanesco&display=swap');
+
 * {
     font-family: "DM Sans", sans-serif;
 }
@@ -25,7 +26,7 @@ nav ul li img {
     width: 80%;
     margin-top: 5px;
 }
-.u-btn, .s-btn {
+.u-btn, .s-btn, .r-btn {
     border: 0;
     box-shadow: none;
     outline: none;
@@ -50,6 +51,10 @@ nav ul li img {
 }
 .logo-img, .call-to-action {
     margin-top: 9px;
+}
+
+.socials{
+    margin: 0 0 0 7px;
 }
 .logo-img {
     margin-top: 16px;
@@ -191,6 +196,7 @@ small {
 .showcase-card small{
     text-transform: uppercase;
     text-align: center;
+    font-size: 8px;
 }
 
 .showcase-card p{
@@ -212,12 +218,91 @@ small {
     padding: 0 50px;
 }
 
+.footer{
+    padding: 10px 60px;
+    margin-top: 100px;
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-right{
+    display: flex;
+    gap: 200px;
+}
+
+.mail{
+    display: flex;
+    gap: 5px;
+}
+.right-text p, .call-to-action p{
+    color: #1E0E62;
+    font-weight: 600;
+
+}
+.right-text small{
+    color: #1E0E62;
+    margin-bottom: 6px;
+}
+
+.footer-left img{
+margin-bottom: 10px;
+}
 
 
+.call-to-action img{
+    margin-top: 10px;
+}
 
+hr{
+    border: 1px solid #EBEAED;
+    margin-top: 120px;
+}
+.footer-bottom{
+    text-align: center;
+    color: #15143966;
+    margin-top: 40px;
+}
 
+.input-item {
+    outline: none;
+    box-shadow: none;
+    padding: 9px 23px;
+    border: 1px solid #EBEAED;
+    border-radius: 20px;
+}
 
+::placeholder {
+    color: #15143966;
+}
 
+.footer-left small{
+    color: #15143966;
+
+}
+
+.socials{
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.right-text small{
+    margin-top: 15px;
+}
+
+.footer-left small{
+    line-height: 1.5rem;
+    display: block;
+}
+
+.socials img{
+    margin-right: 30px;
+}
+
+.footer-left{
+    margin-top: 15px;
+}
 
 
 
